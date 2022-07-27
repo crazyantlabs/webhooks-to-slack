@@ -1,0 +1,35 @@
+{
+  "name": "webhooks-to-slack",
+  "version": "1.0.0",
+  "description": "A Node.js application to transform Webhooks to Slack incoming webhooks.",
+  "engines": {
+    "node": "16.x"
+  },
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.5",
+    "express": "^4.15.2",
+    "lodash": "^4.17.21",
+    "mustache": "^4.2.0",
+    "node-fetch": "^3.2.9",
+    "numeral": "^2.0.6"
+  },
+  "devDependencies": {
+    "got": "^11.3.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crazyantlabs/webhooks-to-slack"
+  },
+  "keywords": [
+    "crazyantlabs",
+    "webhooks",
+    "slack"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Webhooks To Slack",
+  "description": "A Node.js app to deliver Webhooks to Slack incoming webhooks.",
+  "repository": "https://github.com/crazyantlabs/webhooks-to-slack",
+  "logo": "https://cdn.rawgit.com/crazyantlabs/webhooks-to-slack/main/public/node.svg",
+  "keywords": ["crazyantlabs", "webhooks", "slack"],
+  "image": "heroku/nodejs"
+}
